@@ -1,0 +1,163 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 2469616400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que abro o navegador",
+            "match": {
+              "location": "ProvaQASteps.queAbroONavegador()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T17:57:52.865Z",
+        "line": 20,
+        "name": "Deve Realizar busca de empresas credenciadas",
+        "description": "",
+        "id": "busca-no-site-da-empresa-soc;deve-realizar-busca-de-empresas-credenciadas",
+        "after": [
+          {
+            "result": {
+              "duration": 1170546200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProvaQASteps.screenshotFinalizarTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4742293600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "acesso a pagina inicial \"https://www.soc.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.soc.com.br/\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ProvaQASteps.acessoAPaginaInicial(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 98074600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "seleciono Soluções",
+            "match": {
+              "location": "ProvaQASteps.selecionoSoluções()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2849306200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "seleciono SOCNET",
+            "match": {
+              "location": "ProvaQASteps.selecionoSOCNET()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 595090300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "seleciono Buscar credenciados",
+            "match": {
+              "location": "ProvaQASteps.selecionoBuscarCredenciados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 508226800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Preencho os filtros de busca",
+            "match": {
+              "location": "ProvaQASteps.preenchoOsFiltrosDeBusca()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 55554800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "seleciono o icone de lupa",
+            "match": {
+              "location": "ProvaQASteps.selecionoOIconeDeLupa()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1301719000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "seleciono a empresa",
+            "match": {
+              "location": "ProvaQASteps.selecionoAEmpresa()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 37744200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "mostrar o perfil da empresa selecionada",
+            "match": {
+              "location": "ProvaQASteps.mostrarOPerfilDaEmpresaSelecionada()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@provaQA-B"
+          }
+        ]
+      }
+    ],
+    "name": "Busca no site da empresa SOC",
+    "description": "  Como um usuario\n  Eu vou realizar uma busca \n  Para que eu possa obter os resultados",
+    "id": "busca-no-site-da-empresa-soc",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/ProvaQA.feature",
+    "tags": []
+  }
+]
